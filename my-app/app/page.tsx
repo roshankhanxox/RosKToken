@@ -36,6 +36,22 @@ export default function Home() {
         
         </div>
       </section>
+      <section className="w-full max-w-4xl mx-auto px-4 py-16 text-center">
+        <div className="bg-gradient-to-br from-purple-900 to-black p-1 rounded-lg">
+          <div className="p-6 bg-black rounded-lg shadow-md text-white border border-gray-800">
+            <h2 className="text-2xl font-bold text-purple-400 mb-4">Import RKT to Your Wallet</h2>
+            <p className="text-gray-300 mb-4">
+              Ready to start using RKT? Import the token to your wallet using the contract address below deployed on rootstockTestnet:
+            </p>
+            <div className="bg-gray-900 p-4 rounded-lg mb-4">
+              <code className="text-purple-400 break-all">0x17eF05ca2AB25FE1e6dFC9a5995CbC1884Ecd9f4</code>
+            </div>
+            <p className="text-sm text-gray-400">
+              Use this address to add RKT to your wallet. Always verify the address before importing any token.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
