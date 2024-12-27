@@ -12,7 +12,7 @@ const projectId = process.env.NEXT_PUBLIC_WC_PROJECT_ID;
 
 export const config = getDefaultConfig({
   appName: 'RainbowKit demo',
-  projectId: projectId,
+  projectId: projectId || " ",
   chains: [
     mainnet,
     polygon,

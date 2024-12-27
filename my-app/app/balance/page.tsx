@@ -59,7 +59,7 @@ export default function Balance() {
                   ? 'Loading...'
                   : error
                   ? 'Error retrieving balance'
-                  : formatBalance(data)}
+                  : formatBalance(data as bigint)}
               </span>{' '}
               <span className="text-sm text-purple-400">RKT</span>
             </p>
