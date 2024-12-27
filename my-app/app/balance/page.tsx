@@ -66,7 +66,7 @@ export default function Balance() {
           </div>
         ): (
           <p className="text-yellow-400">
-            Please connect your wallet to request tokens.
+            Please connect your wallet to check balance.
           </p>
         )}
       </div>
