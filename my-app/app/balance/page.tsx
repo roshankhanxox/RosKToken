@@ -37,7 +37,7 @@ export default function Balance() {
   return (
     <div className="h-screen bg-gradient-to-br from-purple-900 to-black p-1 rounded-lg flex items-center justify-center">
       <div className="p-6 bg-black rounded-lg shadow-md text-white border border-gray-800">
-        {isConnected && (
+        {isConnected ? (
           <div className="space-y-4">
             <p className="text-sm text-gray-300">
               Connected address:{' '}
@@ -64,6 +64,10 @@ export default function Balance() {
               <span className="text-sm text-purple-400">RKT</span>
             </p>
           </div>
+        ): (
+          <p className="text-yellow-400">
+            Please connect your wallet to request tokens.
+          </p>
         )}
       </div>
     </div>
