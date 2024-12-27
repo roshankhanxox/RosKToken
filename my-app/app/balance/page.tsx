@@ -7,9 +7,7 @@ import { Button } from '@/components/Button'
 import { Input } from '@/components/Input'
 
 export default function Balance() {
-  const [loading, setLoading] = useState(false)
   const [inputAddress, setInputAddress] = useState('')
-  const config = useConfig()
   const { isConnected, address } = useAccount()
 
   const {

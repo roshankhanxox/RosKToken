@@ -1,17 +1,9 @@
-// import { SparklesPreview } from "@/components/Sparkles"
 
-// export default function Home() {
-//   return (
-//     <div className="min-h-screen w-full bg-black flex items-center justify-center">
-//       <SparklesPreview />
-//     </div>
-//   );
-// }
 "use client";
 
 import { SparklesPreview } from "@/components/Sparkles"
 import { GlowingText } from "@/components/GlowingText"
-import { GlareCard } from "@/components/ui/glare-card";
+
 
 export default function Home() {
   return (

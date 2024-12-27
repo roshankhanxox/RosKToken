@@ -1,47 +1,4 @@
-// "use client";
 
-// import { useState } from 'react'
-// import { useAccount, useConfig, useReadContract, useWriteContract } from 'wagmi'
-// import { abi, contractAddress } from '@/app/faucetAbi'
-// import { Button } from '@/components/Button'
-// import { Input } from '@/components/Input'
-// import { waitForTransactionReceipt } from "wagmi/actions";
-
-// export default function Faucet(){
-//     const [loading, setLoading] = useState(false)
-//     const config = useConfig()
-//     const { isConnected, address } = useAccount()
-//     const { writeContractAsync } = useWriteContract();
-
-//     async function handleRequest(){
-//         try{
-//             setLoading(true);
-
-//             const hash = await writeContractAsync({
-//                 address: contractAddress,
-//                 abi,
-//                 functionName: "requestTokens",
-//             })
-
-//             await waitForTransactionReceipt(config, {
-//                 hash,
-//                 confirmations: 1,
-//             })
-//         } catch (error) {
-//             alert("Error requesting Tokens,try again later")
-//             console.error(error)
-//         } finally {
-//             setLoading(false)
-//         }
-//     }
-
-//     return(
-//         <main>
-
-//         </main>
-//     )
-    
-// }
 'use client'
 
 import { useState } from 'react'
@@ -88,7 +45,7 @@ export default function Faucet() {
         <div className="space-y-4">
           <h2 className="text-2xl font-bold text-purple-400 mb-4">RKT Faucet</h2>
           <p className="text-gray-300">
-            Need RKT? Don't worry! Request tokens from our faucet to get started.
+            {`Need RKT? Don't worry! Request tokens from our faucet to get started.`}
           </p>
           {isConnected ? (
             <div className="space-y-4">
