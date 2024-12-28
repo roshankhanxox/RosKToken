@@ -1,6 +1,6 @@
 # RoskToken (RKT) - Next-Generation ERC20 Token
 
-![RoskToken Banner](https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png)
+![RoskToken Banner](https://res.cloudinary.com/dl7n2c4hr/image/upload/v1735395879/Screenshot_2024-12-28_at_7.53.31_PM_bwv6yb.png)
 
 RoskToken (RKT) is a next-generation ERC20 token designed to empower decentralized ecosystems. Combining a capped supply, burn functionality, and innovative miner rewards, RoskToken delivers a secure, scalable, and sustainable solution for blockchain-based applications.
 
